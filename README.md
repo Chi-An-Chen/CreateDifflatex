@@ -30,12 +30,6 @@ bibtex --version
 latexdiff --version
 ```
 
-若找不到，可用 TeX Live 安裝：
-
-```bash
-sudo tlmgr install latexdiff
-```
-
 ## 3. 下載專案並準備檔案
 
 專案目錄重點：
