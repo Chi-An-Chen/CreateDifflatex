@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: diff_latex/diff.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: old.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no number and no volume in achiam2023gpt
+Warning--page numbers missing in both pages and numpages fields in achiam2023gpt
+You've used 1 entry,
+            6273 wiz_defined-function locations,
+            1521 strings with 18417 characters,
+and the built_in function-call counts, 1492 in all, are:
+= -- 186
+> -- 95
+< -- 0
++ -- 34
+- -- 33
+* -- 134
+:= -- 175
+add.period$ -- 5
+call.type$ -- 1
+change.case$ -- 14
+chr.to.int$ -- 1
+cite$ -- 3
+duplicate$ -- 83
+empty$ -- 61
+format.name$ -- 37
+if$ -- 340
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 4
+newline$ -- 47
+num.names$ -- 7
+pop$ -- 46
+preamble$ -- 1
+purify$ -- 22
+quote$ -- 0
+skip$ -- 25
+stack$ -- 0
+substring$ -- 54
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 2
+while$ -- 3
+width$ -- 0
+write$ -- 56
+(There were 2 warnings)
