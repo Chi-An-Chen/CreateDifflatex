@@ -1,5 +1,5 @@
 .DS_Store
-.aux
-.bbl
-.blg
-.log
+*.aux
+*.bbl
+*.blg
+*.log
