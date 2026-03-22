@@ -71,50 +71,7 @@ bash create_difflatex.bash
 
 並且會自動開啟 `diff_latex/diff.pdf`。
 
-## 5. 手動流程（不使用腳本）
-
-若你要手動執行，可參考：
-
-```bash
-cd files
-
-pdflatex old.tex
-bibtex old
-pdflatex old.tex
-pdflatex old.tex
-
-pdflatex new.tex
-bibtex new
-pdflatex new.tex
-pdflatex new.tex
-
-latexdiff old.tex new.tex > diff.tex
-pdflatex diff.tex
-bibtex diff
-pdflatex diff.tex
-pdflatex diff.tex
-open diff.pdf
-```
-
-## 6. 常見問題
-
-### `Error: 'pdflatex' not found`
-代表 LaTeX 未安裝完成，或 PATH 尚未包含 `/Library/TeX/texbin`。
-
-### `Error: 'latexdiff' not found`
-請執行：
-
-```bash
-sudo tlmgr install latexdiff
-```
-
-### 編譯失敗但不知道原因
-請查看 `diff_latex/logs/` 內對應 log，例如：
-- `diff_latex/logs/old_pdflatex_1.log`
-- `diff_latex/logs/new_bibtex.log`
-- `diff_latex/logs/diff_latexdiff.log`
-
-## 7. 輸出清單
+## 5. 輸出清單
 
 - `diff_latex/old.*`：舊版編譯產物
 - `diff_latex/new.*`：新版編譯產物
